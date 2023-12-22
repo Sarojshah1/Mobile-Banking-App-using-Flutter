@@ -25,8 +25,8 @@ class HomeScreenState extends StatefulWidget{
 }
 
 class HomeScreenUI extends State<HomeScreenState>{
-  int activeUser = 0;
-  int activeCurrency = 0;
+  int activeUser = 1;
+  int activeCurrency = 3;
   late double result;
 
   List<Users> userList = [
@@ -39,7 +39,7 @@ class HomeScreenUI extends State<HomeScreenState>{
   List<Currency> currencyList = [
     Currency(status: 1, icon: 'assets/currency/usd.png', name: "USD", code: "\$"),
     Currency(status: 1, icon: 'assets/currency/euro.png', name: "EURO", code: "€"),
-    Currency(status: 1, icon: 'assets/currency/bdt.png', name: "BDT", code: "TK "),
+    Currency(status: 1, icon: 'assets/currency/npl.png', name: "Npr", code: "Npr "),
   ];
 
   //=====CURRENCY_CONVERT======

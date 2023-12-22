@@ -13,7 +13,7 @@ class ActivityScreen extends StatelessWidget{
   late String activeUser;
 
   List<Users> userList = [
-    Users(profilePic: 'assets/users/user1.png', name: 'Md Shakibul Alam', phoneNumber: '0814657513', balance: 1537.02),
+    Users(profilePic: 'assets/users/user1.png', name: 'Saroj kuamr sah', phoneNumber: '9824710055', balance: 1537.02),
     Users(profilePic: 'assets/users/user2.png', name: 'Charlotte', phoneNumber: '0324846542', balance: 0),
     Users(profilePic: 'assets/users/user3.png', name: 'Jhon Doe', phoneNumber: '04488765443', balance: 0),
     Users(profilePic: 'assets/users/user4.png', name: 'Angelica', phoneNumber: '07988600531', balance: 0),
