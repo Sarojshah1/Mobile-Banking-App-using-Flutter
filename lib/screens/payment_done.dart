@@ -35,7 +35,7 @@ class PaymentDoneScreen extends StatelessWidget{
                   borderRadius: BorderRadius.circular(4),
                 ),
                 child: Center(
-                  child: Text('\$$amount', style: TextStyle(
+                  child: Text('\Npr$amount', style: TextStyle(
                       fontFamily: 'Hind',
                       fontSize: 18.sp,
                       fontWeight: FontWeight.w500,

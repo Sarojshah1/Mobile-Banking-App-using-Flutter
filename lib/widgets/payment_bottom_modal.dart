@@ -39,13 +39,13 @@ paymentBottomSheet(context, profile, name, number, buttonValue){
                     controller: paymentFieldTEController,
                     style: Theme.of(context).textTheme.headlineLarge,
                     decoration: InputDecoration(
-                      prefixIcon: Icon(Icons.attach_money, size: 38.sp, color: Colors.grey),
-                      hintText: '0.00',
+                      prefixText: "Npr.",
+                      hintText: '0',
                       hintStyle: TextStyle(
-                        fontSize: 36.sp,
+                        fontSize: 30.sp,
                         fontFamily: 'hind',
                         fontWeight: FontWeight.w100,
-                        color: Colors.grey,
+                        color: Colors.green,
                       ),
                       border: const OutlineInputBorder(borderSide: BorderSide.none),
                     ),

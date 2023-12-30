@@ -26,11 +26,11 @@ class HomeScreenState extends StatefulWidget{
 
 class HomeScreenUI extends State<HomeScreenState>{
   int activeUser = 1;
-  int activeCurrency = 3;
+  int activeCurrency = 2;
   late double result;
 
   List<Users> userList = [
-    Users(profilePic: 'assets/users/user1.png', name: 'Md Shakibul Alam', phoneNumber: '0814657513', balance: 1537.02),
+    Users(profilePic: 'assets/users/user1.png', name: 'Saroj kumar sah', phoneNumber: '9821000212', balance:20000.1),
     Users(profilePic: 'assets/users/user2.png', name: 'Charlotte', phoneNumber: '0324846542', balance: 0),
     Users(profilePic: 'assets/users/user3.png', name: 'Jhon Doe', phoneNumber: '04488765443', balance: 0),
     Users(profilePic: 'assets/users/user4.png', name: 'Angelica', phoneNumber: '07988600531', balance: 0),
@@ -44,15 +44,15 @@ class HomeScreenUI extends State<HomeScreenState>{
 
   //=====CURRENCY_CONVERT======
   String currencyConvert(){
-    if(activeCurrency == 0){
+    if(activeCurrency == 2){
       return userList[0].balance.toStringAsFixed(2).toString();
     }
     else if(activeCurrency == 1){
-      result = userList[0].balance*0.94;
+      result = userList[0].balance/146;
       return result.toStringAsFixed(2).toString();
     }
-    else if(activeCurrency == 2){
-      result = userList[0].balance*110.24;
+    else if(activeCurrency == 0){
+      result = userList[0].balance/134.24;
       return result.toStringAsFixed(2).toString();
     }else{
       return userList[0].balance.toStringAsFixed(2).toString();
